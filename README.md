@@ -1,4 +1,3 @@
-# U6atac Landscape in Prostate Cancer
 
 This repository contains the bioinformatics pipelines and tools developed and applied to study the role of the small nuclear RNA in metastatic castration-resistant prostate cancer (mCRPC). The study explores minor intron retention, alternative splicing, and its transcriptomic landscape, to assess its potential as a therapeutic target.
 

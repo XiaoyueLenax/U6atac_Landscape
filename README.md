@@ -1,13 +1,13 @@
 # U6atac Landscape in Prostate Cancer
 
-This repository contains the bioinformatics pipelines and tools developed and applied to study the role of the small nuclear RNA (snRNA) U6atac in metastatic castration-resistant prostate cancer (mCRPC). The study explores U6atac's role in minor intron retention, alternative splicing, and its transcriptomic landscape, with the aim of assessing its potential as a therapeutic target.
+This repository contains the bioinformatics pipelines and tools developed and applied to study the role of the small nuclear RNA in metastatic castration-resistant prostate cancer (mCRPC). The study explores minor intron retention, alternative splicing, and its transcriptomic landscape, to assess its potential as a therapeutic target.
 
 ## Overview
 
 Metastatic castration-resistant prostate cancer (mCRPC) is a significant challenge in oncology due to its resistance to androgen deprivation therapy (ADT) and the severe side effects associated with newer therapies. This project investigates U6atac, an snRNA involved in minor intron splicing, as a potential selective therapeutic target. The study uses two primary pipelines:
 
 1. **Intron Retention & Alternative Splicing Pipeline**  
-   A pipeline for analyzing minor intron retention and alternative splicing, optimized for RNA sequencing data.
+   A pipeline for analyzing minor intron retention and alternative splicing, optimized for RNA sequencing data. (Private)
    
 2. **Spatial Omics Pipeline**  
    A workflow for analyzing transcriptomic data from patient-derived tissue samples using GeoMx Digital Spatial Profiling (DSP) technology.
@@ -35,13 +35,12 @@ The pipeline can be adapted to analyze major introns with improved parallelizati
 This pipeline analyzes spatial transcriptomic data obtained using GeoMx DSP technology. It identifies differentially expressed genes and deconvolutes cell type composition in high vs. low U6atac expression regions.
 
 #### Key Features
-- **Data Preparation**: Filters low-quality samples and applies DESeq2 and Limma for differential expression analysis.
+- **Data Preparation**: Filters low-quality samples and applies `DESeq2` and `Limma` for differential expression analysis.
 - **Deconvolution**: Uses the `SpatialDecon` R package with prostate-specific profile matrices.
 
 #### Outputs
-- Gene expression profiles for regions of interest (ROIs) in the tumor and tumor microenvironment (TME).
-- Insights into U6atac-related transcriptomic patterns, including MYC, E2F, and DNA repair gene expression.
-
+- Gene expression profiles for regions of interest (ROIs) in the tumour and tumour microenvironment (TME).
+- Retention and alternative splicing events count. 
 ---
 
 ### 3. **Minor Intron Database Scraper**

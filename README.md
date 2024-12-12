@@ -54,7 +54,8 @@ A Python tool automates querying the Minor Intron Database for efficient classif
    git clone https://github.com/XiaoyueLenax/U6atac_Landscape.git
    cd U6atac_Landscape
 
+
 2. Set up the Conda environment for the intron retention pipeline:
     ```bash
     conda env create -f environment.yml
-    conda activate <environment_name>
+    conda activate environment

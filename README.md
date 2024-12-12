@@ -9,7 +9,7 @@ Metastatic castration-resistant prostate cancer (mCRPC) is a significant challen
    A pipeline for analyzing minor intron retention and alternative splicing, optimized for RNA sequencing data. (Private)
    
 2. **Spatial Omics Pipeline**  
-   A workflow for analyzing transcriptomic data from patient-derived tissue samples using GeoMx Digital Spatial Profiling (DSP) technology.
+   A workflow for analyzing transcriptomic data from patient-derived tissue samples using `GeoMx Digital Spatial Profiling (DSP)` technology.
 
 ---
 
